@@ -30,9 +30,7 @@ body {
     align-items: center;
 }
 
-.notification-container {
-    display: none;
-}
+
 
 .notification-container.show {
     display: block;
@@ -66,7 +64,7 @@ body {
 @keyframes fadeInOut {
     0% {
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
     10% {
         opacity: 1;
@@ -77,12 +75,13 @@ body {
     }
     100% {
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
 }
 
 /* Main Content Container */
 .container {
+    
     background-color: #ffffff;
     width: 100%;
     max-width: 600px;
