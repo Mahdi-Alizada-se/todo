@@ -29,7 +29,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.notifictaion-container {
+    display: hidden;
+}
 
 
 .notification-container.show {
